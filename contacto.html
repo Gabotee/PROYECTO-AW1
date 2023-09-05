@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Contactos
+        </h1>
+        <nav>
+            <a href="contacto.html"></a>
+        </nav>
+    </header>
+    <main>
+        <form action="./contacto.html" method="post">
+            <div>
+                <label for="Nombre">Nombre:
+                    <input type="text" name="txtNombre" id="Nombre">
+                </label>
+                
+            </div>
+            <div>
+                <label for="Freelance">SoyFreelance:  
+                </label>
+                <label for="">Si</label>
+                <input type="checkbox" name="Soy" value="Si">
+                <label for="">No</label>
+                <input type="checkbox" name="NoSoy" value="No">
+            </div>
+            <div>
+                <label for="Lenguajes">
+                    <select name="Lenguajes" id="Lenguajes">
+                        <option value="javascript">javascript</option>
+                        <option value="C#">C#</option>
+                        <option value="Phyton">Phyton</option>
+                    </select>
+                </label>
+            </div>
+            <div>
+                <label for="Comentarios">
+                    Comentarios
+                    <textarea name="Comentarios" id="Comentarios" cols="30" rows="10"></textarea>
+                </label>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+
+    </main>
+    <footer>
+        Autor: Gabriel Arietti 
+    </footer>
+    
+</body>
+</html>
